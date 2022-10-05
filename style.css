@@ -95,6 +95,10 @@ header{
     margin:6%;
 }
 
+#mainmat{
+    text-align: center;
+}
+
 #int{
     font-size: 30px;
     text-decoration: underline;
@@ -176,4 +180,4 @@ header{
     padding: 5px;
     margin-left: -5px;
     border-radius: 20px;
-}
+    font-weight: bold;
