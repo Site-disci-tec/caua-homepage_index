@@ -1,0 +1,113 @@
+body{
+    background-color: #354350;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-size: 10px;
+}
+
+header{
+    background-color: #192632;
+    color: #ffffff;
+    padding: 10px;
+    top:0;
+    left:0;
+    right: 0;
+    display: flex;
+    position: fixed;
+    margin-bottom:20px;   
+}
+
+#logo{
+    width: 90px;
+    margin-left: 15%;
+
+}
+
+.mats{
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: expanded;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-left: 58%;
+    background-color: #4d5b69;
+    padding-top: 5px;
+    padding-left: 13px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+}
+
+.tribot{
+        width: 0; 
+        height: 0; 
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #fff;
+}
+
+#linkheader{
+    padding-right: 20px;
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#linkheader:hover{
+    color: #354350;
+}
+
+#fieb{
+    width: 22px;
+}
+
+#fiebbox{
+    background-color: #4d5b69;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 13px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.space{
+    height:45px
+}
+
+.entrada{
+    background-image: linear-gradient(rgba(43, 53, 61, 0.5), rgba(43, 53, 61, 0.5)), url(fundo_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:-8px;
+    margin-right: -8px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#titulohome{
+    font-size: 40px;
+}
+
+#conteudo{
+    margin:6%;
+}
+
+#int{
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.nomes{
+    font-size: 20px;
+}
+
+.introducao{
+    border-style:solid;
+    border-width: 2px;
+    border-color: #4d5b69;
+    border-radius: 10px;
+    padding: 10px;
+}
