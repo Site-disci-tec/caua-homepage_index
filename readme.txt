@@ -33,3 +33,5 @@ ps²: a paleta que eu estou usando é
     #82909e
     
 ps³: o destino dos links do menu é pra ser alterado dps que as demais paginas estiverem completas
+
+ps4: não esqueçam do css
