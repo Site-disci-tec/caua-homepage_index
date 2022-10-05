@@ -143,9 +143,36 @@ header{
 
 #link_home{
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     font-stretch: expanded;
     font-size: 20px;
     color: #fff;
+    background-color: #82909e;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#link_home:hover{
+    color: #354350;
+}
+
+#linkmulherlogb{
+    margin-top: 8px;
+    list-style: square;
+}
+
+#mulherhome{
+    color: #fff;
+    font-size: 20px;
+}
+
+#mulherhome:hover{
+    color: #354350;
+    font-size: 22px;
+    background-color: #82909e;
+    text-decoration: none;
+    padding: 5px;
+    margin-left: -5px;
+    border-radius: 20px;
 }
