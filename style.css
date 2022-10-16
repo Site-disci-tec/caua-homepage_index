@@ -118,3 +118,34 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 1px;
 }
+
+#infohome{
+    color:#fff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-bottom: 80px;
+}
+
+hr{
+    color:#c0c0c0;
+    width: 1000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.materias{
+    background-color: #352552;
+    margin: -8px;
+    padding: 30px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+#int{
+    text-align: center;
+    letter-spacing: 5px;
+}
