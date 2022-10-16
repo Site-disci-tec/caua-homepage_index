@@ -149,3 +149,51 @@ hr{
     text-align: center;
     letter-spacing: 5px;
 }
+
+#mainmat{
+    font-size: 25px;
+}
+
+.dichome{
+    border-radius: 10px;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #0f0c1d;
+}
+
+#link_home{
+    color:#fff;
+    background-color: #06050b;
+    text-decoration: none;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#link_home:hover{
+    background-color: #8f6ec7;
+}
+
+#mulherhome{
+    color: #fff;
+    text-decoration: none;
+    font-size:20px;
+    margin-top: 8px;
+}
+
+#mulherhome:hover{
+    font-weight: bold;
+    background-color: #0f0c1d;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.materias{
+    background-color: #06050b;
+}
