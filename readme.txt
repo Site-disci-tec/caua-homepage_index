@@ -1,37 +1,47 @@
-bom dia grupinho vagabundo
+bom dia
 
-eu ainda estou trabalhando em um menu mais bonitinho mas é bom vcs ja adicionarem nas suas paginas
-
-é só copiar o conteudo da linha 12 - 27 da index da homepage
-
-        <header>
-
-        <a href="index.html"><img id="logo" src="Soulskien_branco.png"></a>
-
-        <div class="mats">
-            <a href="logb.html" id="linkheader">LOGB</a>
-            <a href="esmd.html" id="linkheader">ESMD</a>
-            <a href="futi.html" id="linkheader">FUTI</a>
-            <a href="prit.html" id="linkheader">PRIT</a>
-            <a href="empr.html" id="linkheader">EMPR</a>
+bom, eu tive que refazer o index da homepage pra ele se encaixar nos requisitos
+ainda falta as fotos
+o menu ja está pronto eu acho
+copiem o conteudo da linha 14-42
+    <!--aqui começa o nosso menuzinho maravilhoso <3 -->
+    <header class="header">
+        <div class="top">
+        <!--aqui fica a seção de informações do grupo-->
+        <div class="inf1ft">
+           <div class="menuinf"> <img src="gatohome.gif" id="cat2"> <h3>INF1FT</h3> <img src="gatohome.gif" id="cat"> </div>
+            <div class="nomes">
+            <li>Cauã Santana de Souza 03</li>
+            <li>Gustavo Alves da Silva 07</li>
+            <li>Gustavo Gomes Chaves 08</li>
+            <li>Izabella da Silva Oliveira 09</li>
+            <li>Wellington Cavalcante Ferreira de Lima 32</li>
         </div>
-        <div id="fiebbox"> 
-            <a href="https://fieb.edu.br"><img src="fieb.png" id="fieb"> </a>
         </div>
-        </header>
-        <div class="space"></div>
+        </div> 
+        <!--aqui fica a barra de pesquisa do menu-->
+        <div class="menu">
+            <a href="index.html"><img id="logo" src="Soulskien_branco.png"> </a>
+            <!--links que redirecionam para as demais páginas-->
+            <div class="mats">
+                <a href="logb.html" id="linkheader">LOGB</a>
+                <a href="esmd.html" id="linkheader">ESMD</a>
+                <a href="futi.html" id="linkheader">FUTI</a>
+                <a href="prit.html" id="linkheader">PRIT</a>
+                <a href="empr.html" id="linkheader">EMPR</a>
+                <a href="index.html" id="linkheader">DSA</a>
+            </div>
+        </div>
+    </header>
 
-como o Oscar falou pra usar um css só, provavelmente vai ter que juntar todos dps
+o css vai ser o mesmo 
 
-ps: eu criei a div "space" pq o menu tava comendo uma parte da pagina, então é bom vcs não esquecerem dela
+porfavor usem class e ids!! pq se não o css vai afetar as demais paginas
 
-ps²: a paleta que eu estou usando é
-    #354350
-    #4d5b69
-    #192632
-    #687684
-    #82909e
-    
-ps³: o destino dos links do menu é pra ser alterado dps que as demais paginas estiverem completas
+a nova paleta é:
+    #06050b; um cinza
+    #8f6ec7; um violeta
+    #0f0c1d; um violeta mais escuro
+    #ffffff; branco
 
-ps4: não esqueçam do css
+por enquanto é isso
