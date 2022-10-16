@@ -3,7 +3,7 @@ bom dia
 bom, eu tive que refazer o index da homepage pra ele se encaixar nos requisitos
 ainda falta as fotos
 o menu ja está pronto eu acho
-copiem o conteudo da linha 14-42
+copiem o conteudo da linha 14-43
     <!--aqui começa o nosso menuzinho maravilhoso <3 -->
     <header class="header">
         <div class="top">
@@ -33,6 +33,7 @@ copiem o conteudo da linha 14-42
             </div>
         </div>
     </header>
+    <div class="space"><div>
 
 o css vai ser o mesmo 
 
@@ -43,5 +44,7 @@ a nova paleta é:
     #8f6ec7; um violeta
     #0f0c1d; um violeta mais escuro
     #ffffff; branco
+
+não esqueçam da div space
 
 por enquanto é isso

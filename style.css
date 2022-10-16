@@ -1,5 +1,5 @@
 body{
-    background-color: #FFF;
+    background-color: #131019;
 }
 
 header{
@@ -16,7 +16,7 @@ header{
     margin-right: -8px;
     background-color: #0f0c1d;
     color: #fff;
-
+    
 }
 
 .inf1ft{
@@ -32,7 +32,7 @@ header{
     margin-left: 1%;
     margin-top: -5px;
     margin-bottom: 0.5%;
-    font-weight: bold;
+    letter-spacing: -1px;
 }
 
 #logo{
@@ -79,4 +79,42 @@ header{
 .menuinf{
     display: flex;
     text-align: center;
+}
+
+.space{
+    height: 10px;
+}
+
+.homer{
+    display: flex;
+    height: 100%;
+}
+
+.txthome{
+    margin-left: 50px;
+    float: left;
+    width: 200%;
+}
+
+#hometext{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8f6ec7;
+    font-weight:bolder;
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.resumohome{
+    float: right;
+    margin-left:10%;
+    margin-right: 2%;
+    width: 200%;
+    color: #fff;
+    padding-top: 2%;
+    font-size: 15px;
+}
+
+#txtresumohome{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
 }
