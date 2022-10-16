@@ -156,6 +156,8 @@ hr{
 
 .dichome{
     border-radius: 10px;
+    border-color: #8f6ec7;
+    border-style: solid;
     border-width: 1px;
     padding: 10px;
     margin-top: 10px;
@@ -170,7 +172,7 @@ hr{
     text-decoration: none;
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: 20px;
+    border-radius: 10px;
     font-weight: bold;
     letter-spacing: 1px;
 }
