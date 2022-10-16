@@ -47,4 +47,4 @@ a nova paleta é:
 
 não esqueçam da div space
 
-por enquanto é isso
+por enquanto é isso.
