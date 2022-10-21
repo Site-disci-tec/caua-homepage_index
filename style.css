@@ -343,3 +343,21 @@ textarea{
     font-size:50px;
     text-decoration: underline;
 }
+
+#botaored{
+    padding: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #0f0c1d;
+    color:#fff;
+    border-radius: 30px;
+    border-style: none;
+    font-size: 15px;
+}
+
+#botaored:hover{
+    background-color:#8f6ec7;
+}
