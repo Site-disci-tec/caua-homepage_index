@@ -205,12 +205,26 @@ hr{
     font-size: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
+    font-weight: normal;
+    display: flex;
 }
 
 .infofootername{
     margin-left: 3%;
-    float: left;
-    padding-top: 2px;
+    margin-top: 20px;
+}
+
+.infofoot{
+    margin-top: 20px;
+}
+
+#nomefoot{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.infofootprof{
     margin-top: 20px;
 }
 
@@ -347,7 +361,7 @@ textarea{
 #botaored{
     padding: 20px;
     margin-left: 120px;
-    margin-top: 20px;
+    margin-top: -40px;
     margin-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -359,5 +373,39 @@ textarea{
 }
 
 #botaored:hover{
+    background-color:#8f6ec7;
+}
+
+#hrform{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.matrix{
+    background-image: url(morfeu.png);
+    padding-top: 300px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+}
+
+.morfeus{
+    padding-left: 350px;
+}
+
+#botaoformdsa{
+    padding: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #0f0c1d;
+    color:#fff;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:#8f6ec7;
+    font-size: 15px;
+    margin-right: 120px;
+}
+
+#botaoformdsa:hover{
     background-color:#8f6ec7;
 }
