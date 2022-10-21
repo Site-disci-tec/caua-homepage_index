@@ -213,3 +213,99 @@ hr{
     padding-top: 2px;
     margin-top: 20px;
 }
+
+#infodici{
+    font-size: medium;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#link_home1{
+    margin-left: 20px;
+    color:#fff;
+    background-color: #06050b;
+    text-decoration: none;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#link_home1:hover{
+    background-color: #8f6ec7;
+}
+
+.formjavasection{
+    background-color: #06050b;
+    text-align: center;
+}
+
+#catjs{
+    width: 300px;
+    margin-bottom: -160px;
+    margin-left:40%;
+    margin-top: -100px;
+}
+
+.formjava{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 10%;
+
+}
+
+input{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+select{
+    margin-top: -10px;
+    margin-bottom: 50px;
+    background-color: #131019;
+    color:#8f6ec7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style: double;
+    border-color: #0f0c1d;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+option{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+option:hover{
+    background-color: #8f6ec7;
+    color:#fff;
+}
+
+textarea{
+    resize: none;
+}
+
+#inputnum{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+#inputtext{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    font-size: large;
+    width: 540px;
+}
+
+#opcradio{
+    font-size: large;
+    padding-left: 50px;
+}

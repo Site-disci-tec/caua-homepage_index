@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em Javascript | DSA | 3°tri </title>
+    <link href="style.css" rel="stylesheet">
+    <script>
+
+    </script>
+</head>
+<body>
+    <!--aqui começa o nosso menuzinho maravilhoso <3 -->
+        <header class="header">
+            <div class="top">
+            <!--aqui fica a seção de informações do grupo-->
+            <div class="inf1ft">
+               <div class="menuinf"> <img src="gatohome.gif" id="cat2"> <h3>INF1FT</h3> <img src="gatohome.gif" id="cat"> </div>
+                <div class="nomes">
+                <li>Cauã Santana de Souza 03</li>
+                <li>Gustavo Alves da Silva 07</li>
+                <li>Gustavo Gomes Chaves 08</li>
+                <li>Izabella da Silva Oliveira 09</li>
+                <li>Wellington Cavalcante Ferreira de Lima 32</li>
+            </div>
+            </div>
+            </div> 
+            <!--aqui fica a barra de pesquisa do menu-->
+            <div class="menu">
+                <a href="index.html"><img id="logo" src="Soulskien_branco.png"> </a>
+                <!--links que redirecionam para as demais páginas-->
+                <nav class="mats">
+                    <a href="logb.html" id="linkheader">LOGB</a>
+                    <a href="esmd.html" id="linkheader">ESMD</a>
+                    <a href="futi.html" id="linkheader">FUTI</a>
+                    <a href="prit.html" id="linkheader">PRIT</a>
+                    <a href="empr.html" id="linkheader">EMPR</a>
+                    <a href="index.html" id="linkheader">DSA</a>
+                </nav>
+            </div>
+        </header>
+        <div class="space"></div>
+        <main class="homer">
+            <div class="txthome">
+            <h1 id="hometext">Desenvolvimento de <br>Sistemas e Aplicações</h1>
+            </div>
+            <div class="resumohome">
+                <h1 id="txtresumohome"> Nesta página você encontrará um formulário que será validado em Javascript.</h1>
+            </div>
+        </main>
+        <hr>
+        <h1 id="infohome">Avalie-nos!</h1>
+        <img src="gato_formjs.png" id="catjs">
+        <section class="formjavasection">
+            <hr>
+            <form class="formjava">
+                
+                    <h1>Nome do Professor:</h1>
+                    <input type="text" id="inputtext" maxlength="44">
+                
+                
+                    <h1>E-mail do Professor:</h1>
+                    <input type="mail" id="inputtext" max="44">
+                
+                
+                    <h1>Disciplina do Professor:</h1>
+                    <select id="formselect">
+                        <option>Selecione uma das opções</option>
+                        <option>DSA</option>
+                        <option>LOGB</option>
+                        <option>FUTI</option>
+                        <option>PRIT</option>
+                        <option>EMPR</option>
+                        <option>ESMD</option>
+                    </select>
+                
+                
+                    <h1>Qual a sua opinião sobre a navegação entre ás páginas?</h1>
+                    <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                
+                    <h1>Em relação a estética básica das páginas:</h1>
+                    <label id="opcradio"><input type="radio" id="radioform"> Faltou muita coisa a ser trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Poderia ser mais trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Foi trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Foi bem trabalhada</label><br>
+                
+                
+                    <h1>Em relação a comprensão dos textos do trabalho:</h1>
+                    <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                
+                
+                    <h1>Em relação ao conteúdo do trabalho de forma qualitativa:</h1>
+                    <label id="opcradio"><input type="radio" id="radioform"> Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                
+                
+                    <h1>Em relação ao conteúdo do trabalho de forma quantitativa:</h1>
+                    <input type="radio" id="radioform">
+                
+                
+                    <h1>Dê uma nota de zero até sete sobre o trabalho:</h1>
+                    <input type="number" id="inputnum">
+                
+                
+                    <h1>Faça um comentário sobre a avaliação do trabalho:</h1>
+                    <textarea fixed></textarea>
+                <br>
+                <button type="submit">Confirmar envio</button>
+            </form>
+        </section>
+    </body>
+</html>
