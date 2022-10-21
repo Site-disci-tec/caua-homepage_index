@@ -41,29 +41,33 @@
             </div>
         </header>
         <div class="space"></div>
+        <!--aqui termina o menu de navegação-->
+        <!--nessa div ficará as informações sobre a página-->
         <main class="homer">
             <div class="txthome">
             <h1 id="hometext">Desenvolvimento de <br>Sistemas e Aplicações</h1>
             </div>
             <div class="resumohome">
-                <h1 id="txtresumohome"> Nesta página você encontrará um formulário que será validado em Javascript.</h1>
+                <h1 id="txtresumohome"> Nesta página você encontrará um formulário que será validado em <h1 id="txtfocusform">Javascript</h1></h1>
             </div>
         </main>
         <hr>
         <h1 id="infohome">Avalie-nos!</h1>
+        <!--que gatinho fofo-->
         <img src="gato_formjs.png" id="catjs">
         <section class="formjavasection">
             <hr>
+            <!--início do formulário-->
             <form class="formjava">
-                
+                    <!--1-->
                     <h1>Nome do Professor:</h1>
                     <input type="text" id="inputtext" maxlength="44">
                 
-                
+                    <!--2-->
                     <h1>E-mail do Professor:</h1>
                     <input type="mail" id="inputtext" max="44">
                 
-                
+                    <!--3-->
                     <h1>Disciplina do Professor:</h1>
                     <select id="formselect">
                         <option>Selecione uma das opções</option>
@@ -75,47 +79,53 @@
                         <option>ESMD</option>
                     </select>
                 
-                
+                    <!--4-->
                     <h1>Qual a sua opinião sobre a navegação entre ás páginas?</h1>
                     <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
                 
+                    <!--5-->
                     <h1>Em relação a estética básica das páginas:</h1>
                     <label id="opcradio"><input type="radio" id="radioform"> Faltou muita coisa a ser trabalhada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Poderia ser mais trabalhada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Foi trabalhada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Foi bem trabalhada</label><br>
                 
-                
+                    <!--6-->
                     <h1>Em relação a comprensão dos textos do trabalho:</h1>
                     <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
                 
-                
+                    <!--7-->
                     <h1>Em relação ao conteúdo do trabalho de forma qualitativa:</h1>
                     <label id="opcradio"><input type="radio" id="radioform"> Conteúdo fora do pedido pelo professor</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
                     <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
                 
-                
+                    <!--8-->
                     <h1>Em relação ao conteúdo do trabalho de forma quantitativa:</h1>
-                    <input type="radio" id="radioform">
+                    <label id="opcradio"><input type="radio" id="radioform">Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform">Pouco suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform">Suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform">Mais que suficiente</label>
                 
-                
+                    <!--9-->
                     <h1>Dê uma nota de zero até sete sobre o trabalho:</h1>
                     <input type="number" id="inputnum">
                 
-                
+                    <!--10-->
                     <h1>Faça um comentário sobre a avaliação do trabalho:</h1>
-                    <textarea fixed></textarea>
+                    <textarea fixed maxlength="240" cols="38" rows="6"></textarea>
                 <br>
-                <button type="submit">Confirmar envio</button>
+                <!--botão de envio-->
+                <button type="submit" id="botaoform">Confirmar envio</button>
             </form>
         </section>
     </body>
 </html>
+
