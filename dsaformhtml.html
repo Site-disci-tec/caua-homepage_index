@@ -58,19 +58,20 @@
         <section class="formjavasection">
             <hr>
             <!--início do formulário-->
-            <form class="formjava">
+            <form class="formjava" method="post">
+                <fieldset>
                     <!--1-->
                     <h1>Nome do Professor:</h1>
-                    <input type="text" id="inputtext" maxlength="44">
+                    <input type="text" id="inputtext" maxlength="44" required pattern="[A-Za-záâãéêíóôõúç]+$" placeholder="Digite seu nome">
                 
                     <!--2-->
                     <h1>E-mail do Professor:</h1>
-                    <input type="mail" id="inputtext" max="44">
+                    <input type="email" id="inputtext" max="44" required placeholder="Digite seu email ">
                 
                     <!--3-->
                     <h1>Disciplina do Professor:</h1>
                     <select id="formselect">
-                        <option>Selecione uma das opções</option>
+                        <option selected>Selecione uma das opções</option>
                         <option>DSA</option>
                         <option>LOGB</option>
                         <option>FUTI</option>
@@ -81,42 +82,42 @@
                 
                     <!--4-->
                     <h1>Qual a sua opinião sobre a navegação entre ás páginas?</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                    <label id="opcradio"><input type="radio" id="radioform" name="navopc" checked> Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="navopc"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="navopc"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="navopc"> Muito complicada</label>
                 
                     <!--5-->
                     <h1>Em relação a estética básica das páginas:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Faltou muita coisa a ser trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Poderia ser mais trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Foi trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Foi bem trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="estopc"> Faltou muita coisa a ser trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="estopc"> Poderia ser mais trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="estopc"> Foi trabalhada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="estopc" checked> Foi bem trabalhada</label><br>
                 
                     <!--6-->
                     <h1>Em relação a comprensão dos textos do trabalho:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                    <label id="opcradio"><input type="radio" id="radioform" name="comopc" checked> Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="comopc"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="comopc"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="comopc"> Muito complicada</label>
                 
                     <!--7-->
                     <h1>Em relação ao conteúdo do trabalho de forma qualitativa:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Conteúdo fora do pedido pelo professor</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                    <label id="opcradio"><input type="radio" id="radioform" name="qualopc"> Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="qualopc"> Pouco suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="qualopc"> Suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="qualopc" checked> Mais que suficiente</label>
                 
                     <!--8-->
                     <h1>Em relação ao conteúdo do trabalho de forma quantitativa:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform">Conteúdo fora do pedido pelo professor</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform">Pouco suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform">Suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform">Mais que suficiente</label>
+                    <label id="opcradio"><input type="radio" id="radioform" name="quanopc">Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="quanopc">Pouco suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="quanopc">Suficiente</label><br>
+                    <label id="opcradio"><input type="radio" id="radioform" name="quanopc" checked>Mais que suficiente</label>
                 
                     <!--9-->
                     <h1>Dê uma nota de zero até sete sobre o trabalho:</h1>
-                    <input type="number" id="inputnum">
+                    <input type="number" id="inputnum" required max="7" min="0" placeholder="Nota">
                 
                     <!--10-->
                     <h1>Faça um comentário sobre a avaliação do trabalho:</h1>
@@ -124,6 +125,7 @@
                 <br>
                 <!--botão de envio-->
                 <button type="submit" id="botaoform">Confirmar envio</button>
+            </fieldset>
             </form>
             <hr id="hrform">
             <!--botão de redirecionamento para o formulário em HTML5-->
