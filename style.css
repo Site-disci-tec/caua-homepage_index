@@ -415,6 +415,8 @@ fieldset{
     border-style: none;
 }
 
+
+/*WELLINGTON-FUTI*/
 .mbfuti{
     text-align: center;
     font-size: 230%;
@@ -527,6 +529,7 @@ fieldset{
     margin-top: 2100px;
 }
 
+/*GUSTAVO-LOGB*/
 /*inicio do css ada*/
 .sobre {
     width: 960px;
@@ -1143,3 +1146,134 @@ fieldset{
 #mulhereshistoricastxt{
     text-align: center;
 }
+
+/*IZABELLA-EMPR*/
+.emprimg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(UniverseCapa.jfif);
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    padding: 200px 15px;
+    margin-left:-8px;
+    margin-right: cover;
+    justify-content:space-around
+  }
+    #img2{
+      align-items: center;
+      justify-content:space-around;
+    }
+    #emprfrase1{
+        font-size: 300%;
+        font-family: "Roboto";
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    #emprfrase2{
+        font-size: 200%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+    }
+
+    .divmis{
+      color:#fff;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+    #emprfrase3{
+      font-size: 40px;
+      text-align: center;
+      font-family: "Roboto";
+    }
+
+    #emprfrase4{
+      font-size: 20px;
+      text-align: center, justify;
+      font-family: "Courier New";
+    }
+
+    .divprod{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(emprimg31.jfif);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    color: #fff;
+    padding: 100px 10px;
+    margin-left:-8px;
+    margin-right: cover;
+    justify-content:space-around
+    }
+    #emprfrase5{
+      font-size: 250%;
+      font-family: "Roboto";
+      color: #fff;
+      text-align: center;
+      font-weight: 700;
+  }
+  #emprfrase6{
+    font-size: 150%;
+    font-family: "Courier New";
+    color: #fff;
+    text-align: center;
+  }
+  .divval{
+    color: #fff;
+    padding-left:100px;
+    padding-right:100px;
+  }
+  #emprfrase7{
+    font-size: 250%;
+    font-family: "Courier New";
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+  }
+  #emprfrase8{
+    font-size: 100%;
+      font-family: "Courier New";
+      color: #fff;
+      text-align: center;
+      font-weight: 500;
+  }
+  #emprfrase9{
+    font-size: 250%;
+    font-family: "Courier New";
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+  }
+
+  .sabm{
+    text-align: center;
+  }
+  #botao{
+    background: #8f6ec7; 
+    color: #06050b; border:  2px solid #06050b;transition: 200ms;
+    width: 1000px;
+    height: 45px;
+  }
+  .footerd{
+    font-size: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  #emprfrase10{
+    font-size: 150%;
+      font-family: "Courier New";
+      color: #fff;
+      background-color: #352552;
+      text-align: center;
+      font-weight: 600;
+  }
+  #emprfrase10b{
+    font-size: 150%;
+      font-family: "Courier New";
+      color: #fff;
+      background-color: #131019;
+      text-align: center;
+      font-weight: 00;
+  }
