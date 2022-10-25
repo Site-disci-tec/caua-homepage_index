@@ -161,6 +161,8 @@ hr{
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 30px;
+    margin-left: 100px;
+    margin-right:100px;
     padding-bottom: 20px;
     background-color: #0f0c1d;
 }
@@ -411,4 +413,733 @@ textarea{
 
 fieldset{
     border-style: none;
+}
+
+.mbfuti{
+    text-align: center;
+    font-size: 230%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+#imgmb1{
+    width: 600px; height: 500px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #8f6ec7;
+    text-align: center;
+}
+.txtfuti{
+    color: #ffffff;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.iniciofrasefuti{
+    color: #fff;
+    text-align: center;
+    font-size: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listafuti{
+    color:#fff;
+    margin-top: 100px;
+    list-style-type: circle;
+}
+
+
+#mainfuti{
+        color: #8f6ec7;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+}
+.divfuti{
+    text-align: left;
+    font-size: 180%;
+    position: absolute;
+    display: inline-block;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 100px;
+}
+
+.imgmb1{
+  width: 600px;
+}
+
+#listamb{
+    text-align: left;
+}
+#listamb1{
+    font-size: 110%;
+    text-decoration: underline;
+    color: #8f6ec7;
+}
+#mbfr{
+    text-align: center;
+    color: #8f6ec7;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+#mbfr1{
+    text-align: center;
+    color: #8f6ec7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divfuti2{
+    text-align: left;
+    font-size: 180%;
+    position: absolute;
+    display: inline-block;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 700px;
+}
+.GPU{
+    border-radius: 10px;
+    border-color: #8f6ec7;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    background-color: #0f0c1d;
+}
+.divfuti3{
+    text-align: left;
+    font-size: 180%;
+    position: absolute;
+    display: inline-block;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 1450px;
+}
+.divfuti4{
+    text-align: left;
+    font-size: 180%;
+    position: absolute;
+    display: inline-block;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin-top: 2100px;
+}
+
+/*inicio do css ada*/
+.sobre {
+    width: 960px;
+    margin: auto;
+}
+
+#nome {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+.cont-ada {
+    display: table;
+}
+
+.txt-ada {
+    display: table-cell;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.img-ada {
+    display: table;
+    float: right;
+    margin-left: 300px;
+    margin-top: -250px;
+    border: solid 2px #c0c0c0;
+    background-color: #0f0c1d;
+    border-radius: 5px;
+    padding: 5px;
+    width: 400px;
+    height: 630px;
+}
+
+#ft-ada{
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#info-res {
+    color: #fff;
+}
+
+.cate-indice {
+    color: #fff;
+    margin-left: 20%;
+    margin-top: -400px;
+    text-align: center;
+    width: 200px;
+    height: 330px;
+    border: solid 3px #c0c0c0;
+    padding: 17px;
+    display: grid;
+}
+
+#ind {
+    color:#8f6ec7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#ind:hover {
+    color: #fff;
+}
+
+#hist {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-hist {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#ft-maqui {
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#vida-pessoal {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-pessoal {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#formaçao{
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-forma {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#ppc {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-ppc {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+/*inicio do css anna*/
+
+
+
+#nome {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+.cont-anna {
+    display: table;
+}
+
+.txt-anna {
+    display: table-cell;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.img-anna {
+    display: table;
+    float: right;
+    margin-left: 300px;
+    margin-top: -250px;
+    border: solid 3px #c0c0c0;
+    width: 400px;
+    height: 630px;
+}
+
+#ft-anna{
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#info-res {
+    color: #fff;
+}
+
+.cate-indice {
+    margin-left: 20%;
+    margin-top: -400px;
+    text-align: center;
+    width: 200px;
+    height: 330px;
+    border: solid 3px #c0c0c0;
+    padding: 17px;
+    display: grid;
+}
+
+#ind {
+    color:#8f6ec7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#ind:hover {
+    color: #fff;
+}
+
+#hist {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-hist {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#vida-pessoal {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-pessoal {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#descoberta{
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-desco {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#foto {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-foto {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#fts-anna {
+    border-radius: 50px;
+}
+
+/*inicio do css da Mary Allen Wilkes*/
+
+#nome {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+.cont-mary {
+    display: table;
+}
+
+.txt-mary {
+    display: table-cell;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.img-mary {
+    display: table;
+    float: right;
+    margin-left: 300px;
+    margin-top: -250px;
+    border: solid 3px #c0c0c0;
+    width: 400px;
+    height: 630px;
+}
+
+#ft-mary{
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#info-res {
+    color: #fff;
+}
+
+.cate-indice {
+    margin-left: 20%;
+    margin-top: -400px;
+    text-align: center;
+    width: 200px;
+    height: 330px;
+    border: solid 3px #c0c0c0;
+    padding: 17px;
+    display: grid;
+}
+
+#ind {
+    color:#8f6ec7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#ind:hover {
+    color: #fff;
+}
+
+#hist {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-hist {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#vida-pessoal {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-pessoal {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#descoberta{
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-desco {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#contri {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-contri {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#fts-mary {
+    border-radius: 50px;
+}
+
+/*inicio do css da hypatia de alexandria */
+
+#nome {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+.cont-hy {
+    display: table;
+}
+
+.txt-hy {
+    display: table-cell;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.img-hy {
+    display: table;
+    float: right;
+    margin-left: 300px;
+    margin-top: -250px;
+    border: solid 3px #c0c0c0;
+    width: 400px;
+    height: 630px;
+}
+
+#ft-hy{
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#info-res {
+    color: #fff;
+}
+
+.cate-indice {
+    margin-left: 20%;
+    margin-top: -400px;
+    text-align: center;
+    width: 200px;
+    height: 330px;
+    border: solid 3px #c0c0c0;
+    padding: 17px;
+    display: grid;
+}
+
+#ind {
+    color:#8f6ec7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#ind:hover {
+    color: #fff;
+}
+
+#hist {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-hist {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#formaçao{
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-formaçao {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#legado {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-lega {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+/* INICIO DO CSS DA Hedy Lamarr Elizabeth"jake" */
+
+#nome {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+.cont-he {
+    display: table;
+}
+
+.txt-he {
+    display: table-cell;
+    color: #fff;
+    font-size: 25px;
+    float: left;
+    width: 400px;
+    margin-left: 20%;
+}
+
+.img-he {
+    display: table;
+    float: right;
+    margin-left: 300px;
+    margin-top: -250px;
+    border: solid 3px #c0c0c0;
+    width: 400px;
+    height: 630px;
+}
+
+#ft-he{
+    border:  solid 5px#c0c0c0;
+    border-radius: 20px;
+}
+
+#info-res {
+    color: #fff;
+}
+
+.cate-indice {
+    margin-left: 20%;
+    margin-top: -400px;
+    text-align: center;
+    width: 200px;
+    height: 330px;
+    border: solid 3px #c0c0c0;
+    padding: 17px;
+    display: grid;
+}
+
+#ind {
+    color:#8f6ec7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#ind:hover {
+    color: #fff;
+}
+
+#hist {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-hist {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#descoberta{
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-desco {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+#foto {
+    color: #fff;
+    font-size: 50px;
+    margin-left:20%;
+}
+
+#txt-foto {
+    color: #fff;
+    font-size: 25px;
+    width: 550px;
+    margin-left: 12%;
+}
+
+.footer{
+    color: #c0c0c0;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: normal;
+    display: flex;
+}
+
+.infofootername{
+    margin-left: 3%;
+    margin-top: 20px;
+}
+
+.infofoot{
+    margin-top: 20px;
+}
+
+#nomefoot{
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.infofootprof{
+    margin-top: 20px;
+}
+
+.corpo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkslogbpagina{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: -60px;
+    margin-bottom: 30px;
+    background-color: #0f0c1d;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-color:#8f6ec7;
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+#mulhereshistoricastxt{
+    text-align: center;
 }
