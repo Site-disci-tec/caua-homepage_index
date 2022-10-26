@@ -34,6 +34,13 @@ header{
     letter-spacing: -1px;
 }
 
+#fotoheader{
+    width:5%;
+    border-radius:100%;
+    margin-left:-3%;
+    margin-top:-10px;
+}
+
 #logo{
     width: 8%;
     margin-top:1%;
@@ -1277,3 +1284,260 @@ fieldset{
       text-align: center;
       font-weight: 00;
   }
+
+    /*Parte: Izabella - ESTRUTURA E MODELAGEM DE DADOS */
+    .esmdimg{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(UniverseCapa.jfif);
+        background-position: center;
+        background-size: cover;
+        text-align:center;
+        height: 200px;
+        color: #fff;
+        padding: 200px 15px;
+        margin-left:-8px;
+        margin-right: cover;
+        justify-content:space-around;
+      }
+        #img2{
+            text-align:center;
+          align-items: center;
+          justify-content:space-around;
+        }
+        #esmdfrase1{
+            font-size: 300%;
+            font-family: "Roboto";
+            color: #fff;
+            text-align: center;
+            font-weight: 700;
+        }
+        
+        #esmdfrase2{
+            font-size: 200%;
+            font-family: "Courier New";
+            color: #fff;
+            text-align: center;
+        }
+    
+        .divmis{
+          color:#fff;
+        }
+        #esmdfrase3{
+          font-size: 40px;
+          text-align: center;
+          font-family: "Roboto";
+        }
+    
+        #esmdfrase4{
+          font-size: 20px;
+          text-align: center;
+          font-family: "Courier New";
+        }
+      .divcard{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      
+      #esmdfrase7{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase8{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+    
+      /* Grupo 1 */
+      .grupo1{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #esmdfrase9{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase9b{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      #lista{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      /* Grupo 2 */
+      .grupo2{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #esmdfrase10{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase10b{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      #lista2{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      /* Grupo 3*/
+      .grupo3{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #esmdfrase11{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase11b{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      #lista3{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+      /* Atributo Composto */
+      .composto{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #esmdfrase12{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase12b{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+       /* Atributo Multivalorado */
+       .multivalorado{
+        color: #fff;
+        padding-left:100px;
+        padding-right:100px;
+      }
+      #esmdfrase13{
+        font-size: 250%;
+        font-family: "Courier New";
+        color: #fff;
+        text-align: center;
+        font-weight: 500;
+      }
+      #esmdfrase13b{
+        font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+      }
+    /* PK & FK */
+    .keys{
+      color: #fff;
+      padding-left:100px;
+      padding-right:100px;
+    }
+    #esmdfrase14{
+      font-size: 250%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    #esmdfrase14b{
+      font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    #lista4{
+      font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    #esmdfrase15{
+      font-size: 250%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    #esmdfrase15b{
+      font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    #esmdfrase15c{
+      font-size: 100%;
+          font-family: "Courier New";
+          color: #fff;
+          text-align: center;
+          font-weight: 500;
+    }
+    /* DER */
+    .der{
+      color:#fff;
+      padding-left:100px;
+      padding-right:100px;
+    }
+    #esmdfrase16{
+      font-size: 40px;
+      text-align: center;
+      font-family: "Roboto";
+    }
+    
+    #esmdfrase16b{
+      font-size: 20px;
+      text-align: center;
+      font-family: "Courier New";
+    }
+    
+    

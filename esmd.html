@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="pt"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESMD</title>
+
+    <!--Links para a folha de estilo padrão CSS-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Soulskien_branco.png">
+
+    <!--Links para filho de estilo Java-->
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+
+  </head>
+  <body>
+
+    <!--Aqui começa o nosso MENU-->
+    <header class="header">
+      <div class="top">
+      <!--aqui fica a seção de informações do grupo-->
+      <div class="inf1ft">
+         <div class="menuinf"> <img src="gatohome.gif" id="cat2"> <h3>INF1FT</h3> <img src="gatohome.gif" id="cat"> </div>
+          <div class="nomes">
+          <li>Cauã Santana de Souza 03</li>
+          <li>Gustavo Alves da Silva 07</li>
+          <li>Gustavo Gomes Chaves 08</li>
+          <li>Izabella da Silva Oliveira 09</li>
+          <li>Wellington Cavalcante Ferreira de Lima 32</li>
+      </div>
+      </div>
+      </div> 
+      <!--aqui fica a barra de pesquisa do menu-->
+      <div class="menu">
+          <a href="index.html"><img id="logo" src="Soulskien_branco.png"> </a>
+          <!--links que redirecionam para as demais páginas-->
+          <div class="mats">
+              <a href="logb.html" id="linkheader">LOGB</a>
+              <a href="esmd.html" id="linkheader">ESMD</a>
+              <a href="futi.html" id="linkheader">FUTI</a>
+              <a href="prit.html" id="linkheader">PRIT</a>
+              <a href="empr.html" id="linkheader">EMPR</a>
+              <a href="dsa.html" id="linkheader">DSA</a>
+          </div>
+      </div>
+    </header>
+
+    <!--Dentro da capa do Universo-->
+    <div class="esmdimg">
+      <img src="Soulskien_branco.png" id="img2" width="300px"> <br>
+      <h2 id="esmdfrase1">Estrutura e Modelagem de Dados</h2>
+      <h3 id="esmdfrase2">explicando DER e MER</h3>
+    </div>
+    
+    <!--Aqui é parte do código que trataremos sobre o estudo do MER-->
+    <div class="divmis">
+      <h2 id="esmdfrase3">Estudando o MER...</h2>
+      <p id="esmdfrase4">O MER é utilizado para na fase de projeto
+        conceitual, onde o esquema conceitual do
+        banco de dados da aplicação é concebido.
+      <br>
+      <br>O mesmo, é o conjunto de conceitos e elementos de
+      modelagem que o projetista de banco
+      de dados precisa conhecer. Veja abaixo o modelo que preparamos para a Soulkien Bolos LTDA!   
+      </p>
+      <hr>
+    </div>
+
+    <!--Aqui é a parte que trata sobre a cardinalidade- introdução-->
+    <div class="divcard">
+      <img src="Captura de Tela (26).png" id="modelo">
+      <h1 id="esmdfrase7">EXPLICANDO A CARDINALIDADE</h2>
+
+      <p id="esmdfrase8">A Cardinalidade indica quantas ocorrências de uma Entidade participam no mínimo e no máximo do relacionamento. Cardinalidade é o Grau do Relacionamento: É o número de ocorrências de uma entidade A que está associado com ocorrências de outra entidade B. 
+        <br> <br>Vale lembrar, que em uma modelagem de dados as cardinalidades são informadas inversamente, ou seja, a cardinalidade da tabela A é adiciona na tabela B e a de B em A.
+        <br> <br>Para facilitar o estudo das cardinalidades aplicadas para o MER, da Soulkien Bolos LTDA, dividiremos a explicação em três partes:
+      <hr>
+    </div>
+
+    <!--Aqui é a parte que trata sobre os "grupos" da cardinalidade-->
+   <div class="grupo1">
+    <h1 id="esmdfrase9">GRUPO "CLIENTES":</h2>
+      <p id="esmdfrase9b">Nesse grupo teremos os relacionamentos:</p>
+      <br>
+      <ol id="lista">
+        <li>CLIENTES para SITE -- SITE para CLIENTES:</li>
+        <br>
+        <li>CLIENTES para ENDEREÇO -- ENDEREÇO para CLIENTES:</li>
+        <br>
+        <li>CLIENTES para PEDIDO -- PEDIDO para CLIENTES:</li>
+        
+      </ol>
+    <hr>
+   </div>
+
+   <div class="grupo2">
+    <h1 id="esmdfrase10">GRUPO "PEDIDO":</h2>
+      <p id="esmdfrase10b">Nesse grupo teremos os relacionamentos:</p>
+      <br>
+      <ol id="lista2">
+        <li>PEDIDO para BOLOS:</li>
+        <br>
+        <li>BOLOS para PEDIDO:</li>
+      </ol>
+    <hr>
+   </div>
+
+   <div class="grupo3">
+    <h1 id="esmdfrase11">GRUPO "BOLOS":</h2>
+      <p id="esmdfrase11b">Nesse grupo teremos os relacionamentos:</p>
+      <br>
+      <ol id="lista3">
+        <li>BOLOS para KILOS_VALORES:</li>
+        <br>
+        <li>BOLOS para PEDIDO:</li>
+      </ol>
+    <hr>
+   </div>
+   
+   <!--aqui trataremos sobre a explicação do "ATRIBUTO COMPOSTO"-->
+   <div class="composto">
+    <h1 id="esmdfrase13">Explicando o atributo COMPOSTO...</h1>
+    <p id="esmdfrase13b">O conteúdo do atributo composto, é formado por vários itens menores. Como no da imagem, temos de exemplo o atributo: Endereço. Seu conteúdo poderá ser dividido em vários outros atributos, como: Rua, Número, Complemento, Bairro, Cep e Cidade. Por isso, utilizamos o atributo composto ;)</p>
+    <hr>
+  </div>
+
+    <!--aqui trataremos sobre a explicação do "ATRIBUTO MULTIVALORADO"-->
+    <div class="multivalorado">
+      <h1 id="esmdfrase13">Explicando o atributo MULTIVALORADO...</h1>
+      <p id="esmdfrase13b">O seu conteúdo é formado por mais de um valor.
+
+        Exemplo: Telefone. Uma pessoa poderá ter mais de um número de telefone. É indicado colocando-se um asterisco precedendo o nome do atributo. O atributo multivalorado serão tratados com mais detalhes na normalização de dados.
+        <br><br>
+        Este tipo de atributo é aceito conceitualmente, mas ele pode ser um problema no banco de dados. Há duas possibilidades para tratar com ele. A primeira é mantê-lo como multivalorado e permitir que mais de um dado seja inserido no mesmo campo, como por exemplo: dois números de telefone. A segunda alternativa é aplicar o processo de normalização de dados e transformá-lo em uma entidade a parte ou uma tabela no banco de dados e relacioná-la com a tabela principal.
+        <br><br>
+        A primeira alternativa é mais simples, mas teríamos o problema da consulta de dados, caso precisássemos fazer uma consulta pelo número de um dos telefones apenas. A segunda é mais trabalhosa, porém é mais eficaz</p>
+      <hr>
+    </div>
+
+    <!--Aqui trataremos sobre as PRIMAY KEYS & FOREIGN KEYS-->
+    <div class="keys">
+      <h1 id="esmdfrase14">Explicando e diferenciando PRIMARY KEYS e FOREIGN KEYS...</h1>
+      <p id="esmdfrase14b">Vamos começar, explicando o conceito da PRIMARY KEY, ou, se assim preferir, CHAVE PRIMÁRIA: A chave primária consiste em uma ou mais colunas cujos dados contidos são usados para identificar exclusivamente cada linha na tabela. Algumas de suas características são:</p>
+      <br>
+      <ul id="lista4">
+        <li>As colunas que definem a chave primária são exclusivas;</li>
+        <br>
+        <li>Cada coluna pode conter valores duplicados; no entanto, a combinação de valores de coluna é exclusiva;</li>
+        <br>
+        <li>Nenhum valor nas colunas de chave primária é NULL. Eu também estenderia isso para incluir valores “em branco”;</li>
+        <br>
+        <li>Ao definir uma tabela, você especifica a chave primária. Uma tabela possui apenas uma chave primária e sua definição é obrigatória.</li>
+        <br>
+        <li>As chaves primárias são armazenadas em um índice;</li>
+        <br>
+        <li>O índice mantém o requisito de exclusividade da chave primária;</li>
+      </ol>
+      <hr>
+
+      <h1 id="esmdfrase15">FOREIGN KEYS</h1>
+      <p id="esmdfrase15b">A chave estrangeira, ou foreign key, é um conceito ligeiramente diferente. Ela não diz respeito, especificamente, a uma tabela, mas sim a um relacionamento entre tabelas. De forma sucinta, a chave estrangeira é uma referência em uma tabela a uma chave primária de outra tabela. </p>
+      <img src="Captura de Tela (25).png">
+
+      <p id="esmdfrase15c">Como exemplo do do que foi dito anteriormente, na tabela acima, temos o exemplo das tabelas "Mora" e "Endereço", onde a chave primária da tabela endereço ("CEP"), tornou-se chave estrangeira na tabela "Mora".</p>
+      <hr>
+    </div>
+
+    <!--Aqui é parte do código que trataremos sobre o estudo do DER-->
+    <div class="der">
+      <h2 id="esmdfrase16">Estudando o DER...</h2>
+      <p id="esmdfrase16b">Enquanto o MER é um modelo conceitual, o Diagrama Entidade Relacionamento (Diagrama ER ou ainda DER) é a sua representação gráfica e principal ferramenta. Em situações práticas, o diagrama é tido muitas vezes como sinônimo de modelo, uma vez que sem uma forma de visualizar as informações, o modelo pode ficar abstrato demais para auxiliar no desenvolvimento do sistema. Dessa forma, quando se está modelando um domínio, o mais comum é já criar sua representação gráfica, seguindo algumas regras.</p>
+      <hr>
+    </div>
+
+</body>
+</html>
