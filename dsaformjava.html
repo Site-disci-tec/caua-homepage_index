@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário em Javascript | DSA | 3°tri </title>
     <link href="style.css" rel="stylesheet">
-    <script>
-
-    </script>
+    <script src="script.js"></script>
 </head>
 <body>
     <!--aqui começa o nosso menuzinho maravilhoso <3 -->
@@ -16,7 +14,7 @@
             <div class="top">
             <!--aqui fica a seção de informações do grupo-->
             <div class="inf1ft">
-               <div class="menuinf"> <img src="gatohome.gif" id="cat2"> <h3>INF1FT</h3> <img src="gatohome.gif" id="cat"> </div>
+            <div class="menuinf"> <img src="gatohome.gif" id="cat2"> <h3>INF1FT</h3> <img src="gatohome.gif" id="cat"> </div>
                 <div class="nomes">
                 <li>Cauã Santana de Souza 03</li>
                 <li>Gustavo Alves da Silva 07</li>
@@ -58,7 +56,7 @@
         <section class="formjavasection">
             <hr>
             <!--início do formulário-->
-            <form class="formjava" method="post">
+            <form class="formjava" method="post" onsubmit="return validar()">
                 <fieldset>
                     <!--1-->
                     <h1>Nome do Professor:</h1>
@@ -66,54 +64,54 @@
                 
                     <!--2-->
                     <h1>E-mail do Professor:</h1>
-                    <input type="email" id="inputtext" max="44" placeholder="Digite seu email">
+                    <input type="email" id="inputemail" max="44" placeholder="Digite seu email">
                 
                     <!--3-->
                     <h1>Disciplina do Professor:</h1>
                     <select id="formselect">
-                        <option selected>Selecione uma das opções</option>
-                        <option>DSA</option>
-                        <option>LOGB</option>
-                        <option>FUTI</option>
-                        <option>PRIT</option>
-                        <option>EMPR</option>
-                        <option>ESMD</option>
+                        <option selected value="x">Selecione uma das opções</option>
+                        <option value="d">DSA</option>
+                        <option value="l">LOGB</option>
+                        <option value="f">FUTI</option>
+                        <option value="p">PRIT</option>
+                        <option value="em">EMPR</option>
+                        <option value="es">ESMD</option>
                     </select>
                 
                     <!--4-->
                     <h1>Qual a sua opinião sobre a navegação entre ás páginas?</h1>
-                    <label id="opcradio"><input type="radio" id="radioform" checked> Muito fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                    <label id="opcradio"><input type="radio"  onclick="clicar1()" id="radmf" checked="checked"> Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar2()"id="radf"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar3()" id="radc"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar4()"id="radmc"> Muito complicada</label>
                 
                     <!--5-->
                     <h1>Em relação a estética básica das páginas:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Faltou muita coisa a ser trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Poderia ser mais trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Foi trabalhada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform" checked> Foi bem trabalhada</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar5()"id="rad1"checked="checked"> Faltou muita coisa a ser trabalhada</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar6()"id="rad2"> Poderia ser mais trabalhada</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar7()"id="rad3"> Foi trabalhada</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar8()"id="rad4" > Foi bem trabalhada</label><br>
                 
                     <!--6-->
                     <h1>Em relação a comprensão dos textos do trabalho:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform" checked> Muito fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Fácil</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Complicada</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Muito complicada</label>
+                    <label id="opcradio"><input type="radio"  onclick="clicar9()"id="rad5"checked="checked" > Muito fácil</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar10()"id="rad6"> Fácil</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar11()"id="rad7"> Complicada</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar12()"id="rad8"> Muito complicada</label>
                 
                     <!--7-->
                     <h1>Em relação ao conteúdo do trabalho de forma qualitativa:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform"> Conteúdo fora do pedido pelo professor</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Pouco suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform"> Suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform" checked> Mais que suficiente</label>
+                    <label id="opcradio"><input type="radio"  onclick="clicar13()"id="rad9"checked="checked"> Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar14()" id="rad10"> Pouco suficiente</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar15()"id="rad11"> Suficiente</label><br>
+                    <label id="opcradio"><input type="radio"  onclick="clicar16()"id="rad12" > Mais que suficiente</label>
                 
                     <!--8-->
                     <h1>Em relação ao conteúdo do trabalho de forma quantitativa:</h1>
-                    <label id="opcradio"><input type="radio" id="radioform">Conteúdo fora do pedido pelo professor</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform">Pouco suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform">Suficiente</label><br>
-                    <label id="opcradio"><input type="radio" id="radioform" checked>Mais que suficiente</label>
+                    <label id="opcradio"><input type="radio" onclick="clicar17()" id="rad13"checked="checked">Conteúdo fora do pedido pelo professor</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar18()"id="rad14">Pouco suficiente</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar19()"id="rad15">Suficiente</label><br>
+                    <label id="opcradio"><input type="radio" onclick="clicar20()"id="rad16" >Mais que suficiente</label>
                 
                     <!--9-->
                     <h1>Dê uma nota de zero até sete sobre o trabalho:</h1>
