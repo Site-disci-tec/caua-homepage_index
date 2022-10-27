@@ -55,19 +55,16 @@
     
     <!--Aqui é parte do código que trataremos sobre o estudo do MER-->
     <div class="divmis">
-      <h2 id="esmdfrase3">Estudando o MER...</h2>
-      <p id="esmdfrase4">O MER é utilizado para na fase de projeto
-        conceitual, onde o esquema conceitual do
-        banco de dados da aplicação é concebido.
+      <h2 id="esmdfrase3">Soulkien Bolos LTDA</h2>
+      <p id="esmdfrase4">Descrição da empresa: A Soulkien Bolos LTDA, é uma empresa que fabrica bolos por encomenda, através de delivery (site). Seu sistema de precificação funciona por peso por KILO. Entenda agora, como fizemos o projeto para a empresa:
       <br>
-      <br>O mesmo, é o conjunto de conceitos e elementos de
-      modelagem que o projetista de banco
-      de dados precisa conhecer. Veja abaixo o modelo que preparamos para a Soulkien Bolos LTDA!   
+      <br>Estudando o MER... O MER é utilizado para na fase de projeto conceitual, onde o esquema conceitual do banco de dados da aplicação é concebido. O MER (Modelo Entidade Relacionamento) é utilizado para descrever os objetos do mundo real através de entidades, com suas propriedades que são os atributos e os seus relacionamentos. O mesmo, é o conjunto de conceitos e elementos de modelagem que o projetista de banco de dados precisa conhecer. 
+      <br><br>Estudando o DER... Enquanto o MER é um modelo conceitual, o Diagrama Entidade Relacionamento (Diagrama ER ou ainda DER) é a sua representação gráfica e principal ferramenta. Em situações práticas, o diagrama é tido muitas vezes como sinônimo de modelo, uma vez que sem uma forma de visualizar as informações, o modelo pode ficar abstrato demais para auxiliar no desenvolvimento do sistema. Dessa forma, quando se está modelando um domínio, o mais comum é já criar sua representação gráfica, seguindo algumas regras. Veja abaixo o modelo que preparamos para a Soulkien Bolos LTDA!
       </p>
       <hr>
     </div>
 
-    <!--Aqui é a parte que trata sobre a cardinalidade- introdução-->
+    <!--Aqui é a parte que trata sobre a cardinalidade- introdução (MODELO CONCEITUAL)-->
     <div class="divcard">
       <img src="Captura de Tela (26).png" id="modelo">
       <h1 id="esmdfrase7">EXPLICANDO A CARDINALIDADE</h2>
@@ -84,12 +81,22 @@
       <p id="esmdfrase9b">Nesse grupo teremos os relacionamentos:</p>
       <br>
       <ol id="lista">
-        <li>CLIENTES para SITE -- SITE para CLIENTES:</li>
+        <li>CLIENTES para SITE (1,1): Um cliente precisa ter no mínimo 1 cadastro, e no máximo 1 cadastro.</li>
         <br>
-        <li>CLIENTES para ENDEREÇO -- ENDEREÇO para CLIENTES:</li>
+        <li>SITE para CLIENTES (0,N): Um site pode não ter nenhum cadastro (0) , e pode ter muitos cadastros (N).</li>
         <br>
-        <li>CLIENTES para PEDIDO -- PEDIDO para CLIENTES:</li>
-        
+        <li>RELACIONAMENTO: (1-N) Quando há uma cardinalidade 1:N ou N:1 ocorre a inclusão da chave primária da tabela que possui cardinalidade mínima 1 na tabela que possui cardinalidade máxima N. Assim fazendo referência a sua tabela de origem. Esse atributo adicionado na outra tabela é denominado chave estrangeira. (No caso, a PK da tabela SITE, vira a nossa chave estrangeira na tabela CLIENTES).</li>
+        <br><br>
+        <li>CLIENTES para ENDEREÇO (1,N): Um cliente precisa ter no mínimo 1 endereço e pode ter no máximo muitos (N) endereços.</li>
+        <br>
+        <li>ENDEREÇO para CLIENTES (1,N): Um endereço pode ter no mínimo um cliente, e pode ter no máximo muitos (N) clientes.</li>
+        <br>
+        <li>RELACIONAMENTO: (N,N) Um relacionamento muitos para muitos ocorre quando vários registros em uma tabela são associados a vários registros em outra tabela. Sistemas de bancos de dados relacionais normalmente não permitem implementar um relacionamento muitos para muitos direto entre duas tabelas. Para evitar esse problema você pode dividir o relacionamento muitos para muitos em dois relacionamentos um para muitos usando uma terceira tabela, chamada de tabela de associação. Cada registro em uma tabela de associação inclui um campo de correspondência que contém o valor das chaves primárias das duas tabelas que ela associa. (Na tabela de associação, esses campos de correspondência são chaves externas.) Esses campos de chaves externas são preenchidos com dados, pois os registros da tabela de associação são criados de ambas as tabelas que ela associa.</li>
+        <br><br>
+        <li>CLIENTES para PEDIDO (1,N): Um cliente precisa ter no mínimo 1 pedido, e pode fazer no máximo muitos (N) pedidos.</li>
+        <br>
+        <li>PEDIDO para CLIENTES (1,1): Um pedido pode ter no mínimo 1 cliente, e no máximo 1 cliente.</li>
+        <br>RELACIONAMENTO: (N,1): Quando há uma cardinalidade 1:N ou N:1 ocorre a inclusão da chave primária da tabela que possui cardinalidade mínima 1 na tabela que possui cardinalidade máxima N. Assim fazendo referência a sua tabela de origem. Esse atributo adicionado na outra tabela é denominado chave estrangeira. (No caso, a PK da tabela PEDIDO, vira a nossa chave estrangeira na tabela CLIENTES).</li>
       </ol>
     <hr>
    </div>
@@ -99,10 +106,12 @@
       <p id="esmdfrase10b">Nesse grupo teremos os relacionamentos:</p>
       <br>
       <ol id="lista2">
-        <li>PEDIDO para BOLOS:</li>
+        <li>PEDIDO para BOLOS (1,N): Um pedido precisa ter no mínimo 1 bolo, e no máximo muitos (N) bolos.</li>
         <br>
-        <li>BOLOS para PEDIDO:</li>
-      </ol>
+        <li>BOLOS para PEDIDO: (1,N) Um bolo precisa ter no mínimo um pedido (por ser uma fábrica por encomenda), e no máximo muitos (N) pedidos (pois o mesmo TIPO de bolo pode ser pedido por várias pessoas).</li>
+        <br>
+        <li>RELACIONAMENTO: (N,N) Um relacionamento muitos para muitos ocorre quando vários registros em uma tabela são associados a vários registros em outra tabela. Sistemas de bancos de dados relacionais normalmente não permitem implementar um relacionamento muitos para muitos direto entre duas tabelas. Para evitar esse problema você pode dividir o relacionamento muitos para muitos em dois relacionamentos um para muitos usando uma terceira tabela, chamada de tabela de associação. Cada registro em uma tabela de associação inclui um campo de correspondência que contém o valor das chaves primárias das duas tabelas que ela associa. (Na tabela de associação, esses campos de correspondência são chaves externas.) Esses campos de chaves externas são preenchidos com dados, pois os registros da tabela de associação são criados de ambas as tabelas que ela associa. (No caso, é a tabela "TEM")</li>
+     </ol>
     <hr>
    </div>
 
@@ -111,9 +120,12 @@
       <p id="esmdfrase11b">Nesse grupo teremos os relacionamentos:</p>
       <br>
       <ol id="lista3">
-        <li>BOLOS para KILOS_VALORES:</li>
+        <li>BOLOS para KILOS_VALORES: Um bolo precisa ter no mínimo 1 valor em kilo, no máximo muitos (N).</li>
         <br>
-        <li>BOLOS para PEDIDO:</li>
+        <li>KILOS_VALORES para BOLOS: Um valor por kilo, pode ser ter 1 ou vários (N), bolos</li>
+        <br>
+        <li>RELACIONAMENTO: (N,N) Um relacionamento muitos para muitos ocorre quando vários registros em uma tabela são associados a vários registros em outra tabela. Sistemas de bancos de dados relacionais normalmente não permitem implementar um relacionamento muitos para muitos direto entre duas tabelas. Para evitar esse problema você pode dividir o relacionamento muitos para muitos em dois relacionamentos um para muitos usando uma terceira tabela, chamada de tabela de associação. Cada registro em uma tabela de associação inclui um campo de correspondência que contém o valor das chaves primárias das duas tabelas que ela associa. (Na tabela de associação, esses campos de correspondência são chaves externas.) Esses campos de chaves externas são preenchidos com dados, pois os registros da tabela de associação são criados de ambas as tabelas que ela associa. (No caso, é a tabela "POSSUI")</li>
+        <br>
       </ol>
     <hr>
    </div>
@@ -166,10 +178,11 @@
       <hr>
     </div>
 
-    <!--Aqui é parte do código que trataremos sobre o estudo do DER-->
+    <!--Aqui é parte do código que trataremos sobre o access-->
     <div class="der">
-      <h2 id="esmdfrase16">Estudando o DER...</h2>
-      <p id="esmdfrase16b">Enquanto o MER é um modelo conceitual, o Diagrama Entidade Relacionamento (Diagrama ER ou ainda DER) é a sua representação gráfica e principal ferramenta. Em situações práticas, o diagrama é tido muitas vezes como sinônimo de modelo, uma vez que sem uma forma de visualizar as informações, o modelo pode ficar abstrato demais para auxiliar no desenvolvimento do sistema. Dessa forma, quando se está modelando um domínio, o mais comum é já criar sua representação gráfica, seguindo algumas regras.</p>
+      <h2 id="esmdfrase16">ACCESS</h2>
+      <p id="esmdfrase16b">Agora que voc~e conferiu grande parte do projeto, aproveite para dar uma olhada no nosso modelo no Access ;)</p>
+      <!--Imagem do access-->
       <hr>
     </div>
 
